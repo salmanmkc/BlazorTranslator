@@ -4,5 +4,9 @@
 <VideoMedia OnDataReceived="OnDataReceived" Timeslice="100" Width="640" Height="480" RecordAudio="true"></VideoMedia>
 
 @code {
+    protected void OnDataReceived(byte[] data)
+    {
+        Console.WriteLine($"Data Recieved of length: {data.Length}");
+    }
 
 }
