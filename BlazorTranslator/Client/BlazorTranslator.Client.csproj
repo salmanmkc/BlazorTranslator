@@ -16,6 +16,9 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="System.Net.Http.Json" Version="3.2.0" />
+	<PackageReference Include="BlazorMedia" Version="0.2.333.326">
+		<ExcludeAssets>contentFiles</ExcludeAssets>
+	</PackageReference>
   </ItemGroup>
 
   <ItemGroup>
